@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -89,7 +89,7 @@
     <!-- Welcome Banner -->
     <div class="bg-gradient-to-r from-amber-100 to-orange-100 text-center py-3 px-4">
         <p class="text-sm text-stone-700">
-            <strong>Free to use.</strong> Sign in to join the village — from <strong>£3/month on Patreon</strong>. <a href="https://feelfamous.co.uk" class="text-amber-700 font-bold underline">feelfamous.co.uk</a>
+            <strong>Free to use.</strong> Sign in to join the village â€” from <strong>Â£3/month on Patreon</strong>. <a href="https://feelfamous.co.uk" class="text-amber-700 font-bold underline">feelfamous.co.uk</a>
         </p>
     </div>
 
@@ -101,14 +101,14 @@
             <button onclick="showSection('cratedig')" class="tab-btn" id="tab-cratedig">Crate Dig</button>
             <button onclick="showSection('care')" class="tab-btn" id="tab-care">Care</button>
             <button onclick="showSection('gear')" class="tab-btn" id="tab-gear">Gear</button>
-            <button onclick="showSection('meet')" class="tab-btn" id="tab-meet">📍 Meet</button>
+            <button onclick="showSection('meet')" class="tab-btn" id="tab-meet">ðŸ“ Meet</button>
             <button onclick="showSection('admin')" class="tab-btn hidden" id="tab-admin" style="color:#d97706;font-weight:700;">Admin</button>
         </div>
     </div>
 
     <!-- Patreon Status Bar -->
     <div id="patreonStatusBar" class="hidden patreon-bar py-2 px-4 text-center text-sm font-semibold" aria-live="polite">
-        <span id="patreonTierLabel">🏡 Villager · Patreon Active</span>
+        <span id="patreonTierLabel">ðŸ¡ Villager Â· Patreon Active</span>
     </div>
 
     <!-- User Status Bar -->
@@ -147,11 +147,11 @@
 
                 <div class="grid grid-cols-2 gap-4">
                     <div class="upload-box" onclick="document.getElementById('cameraInput').click()">
-                        <div class="text-4xl mb-2">📷</div>
+                        <div class="text-4xl mb-2">ðŸ“·</div>
                         <p class="font-bold text-stone-700 text-sm">Camera</p>
                     </div>
                     <div class="upload-box" onclick="document.getElementById('galleryInput').click()">
-                        <div class="text-4xl mb-2">🖼️</div>
+                        <div class="text-4xl mb-2">ðŸ–¼ï¸</div>
                         <p class="font-bold text-stone-700 text-sm">Gallery</p>
                     </div>
                 </div>
@@ -164,19 +164,19 @@
             <div class="card" style="background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);">
                 <h3 class="font-bold text-stone-800 mb-3">What Uncle Kevin Checks:</h3>
                 <ul class="text-sm text-stone-600 space-y-2">
-                    <li>💿 Artist, album, label, catalogue number</li>
-                    <li>🔍 Matrix numbers &amp; dead wax codes</li>
-                    <li>🏭 Pressing plant &amp; stamper identification</li>
-                    <li>📊 Goldmine condition grading (vinyl + sleeve)</li>
-                    <li>💰 Current market value &amp; demand</li>
-                    <li>🎵 First pressing vs reissue detection</li>
+                    <li>ðŸ’¿ Artist, album, label, catalogue number</li>
+                    <li>ðŸ” Matrix numbers &amp; dead wax codes</li>
+                    <li>ðŸ­ Pressing plant &amp; stamper identification</li>
+                    <li>ðŸ“Š Goldmine condition grading (vinyl + sleeve)</li>
+                    <li>ðŸ’° Current market value &amp; demand</li>
+                    <li>ðŸŽµ First pressing vs reissue detection</li>
                 </ul>
                 <p class="text-xs text-stone-400 mt-3">Snap the label for best results. Dead wax photos are gold dust.</p>
             </div>
 
             <!-- Loading State -->
             <div id="loadingView" class="hidden card text-center py-8">
-                <div class="text-6xl mb-4 vinyl-spin">💿</div>
+                <div class="text-6xl mb-4 vinyl-spin">ðŸ’¿</div>
                 <p id="patienceMessage" class="text-xl font-bold text-amber-700">Examining the grooves...</p>
                 <p id="loadingTimer" class="text-lg text-stone-400 mt-2">0s</p>
                 <p id="patienceNote" class="text-sm text-stone-400 mt-4 max-w-md mx-auto hidden">Uncle Kevin's taking a proper look. Complex pressings take a moment...</p>
@@ -197,7 +197,7 @@
                 </div>
                 <div id="signInPrompt" class="card text-center" style="border: 2px solid #d97706;">
                     <p class="text-stone-700 font-semibold mb-4">Sign in to earn kudos and track your collection!</p>
-                    <a href="#" id="patreonSignInBtn" class="btn btn-gold w-full" style="font-size:16px;" aria-label="Sign in with Patreon">🎨 Sign in with Patreon</a>
+                    <a href="#" id="patreonSignInBtn" class="btn btn-gold w-full" style="font-size:16px;" aria-label="Sign in with Patreon">ðŸŽ¨ Sign in with Patreon</a>
                     <p class="text-xs text-stone-400 mt-3">Patreon members get kudos, badges, and record tracking.</p>
                     <a href="https://www.patreon.com/chrisptee" target="_blank" class="block text-center text-stone-400 text-xs mt-2 hover:text-stone-600">Not a member? Join at patreon.com/chrisptee</a>
                 </div>
@@ -232,7 +232,7 @@
         <!-- ============================================ -->
         <div id="section-askkevin" class="hidden">
             <div class="card" style="background: linear-gradient(135deg, #1c1917 0%, #44403c 100%); color: white; text-align: center;">
-                <div class="text-5xl mb-3">🎧</div>
+                <div class="text-5xl mb-3">ðŸŽ§</div>
                 <h2 class="text-2xl font-bold mb-1">Ask Uncle Kevin</h2>
                 <p class="text-white/80 text-sm">Your favourite uncle who happens to have 10,000 records</p>
                 <p class="text-white/60 text-xs mt-1">Quad 306. Electrostatics. Goldring Lenco. No snobbery.</p>
@@ -255,9 +255,9 @@
             <div class="card" style="padding: 16px;">
                 <div id="chatMessages" class="chat-container" style="min-height: 200px; padding: 8px;">
                     <div class="flex items-start gap-2 mb-3">
-                        <span class="text-2xl flex-shrink-0">🎧</span>
+                        <span class="text-2xl flex-shrink-0">ðŸŽ§</span>
                         <div class="chat-bubble chat-kevin">
-                            Alright mate! I'm Uncle Kevin. Been digging in crates since before most of you were born. Ask me anything — pressings, grading, turntables, what that record's worth, or just chat about music. No question's too basic and no genre's off limits. It's all about the music. Pull up a chair, stick the kettle on, let's have a natter about vinyl!
+                            Alright mate! I'm Uncle Kevin. Been digging in crates since before most of you were born. Ask me anything â€” pressings, grading, turntables, what that record's worth, or just chat about music. No question's too basic and no genre's off limits. It's all about the music. Pull up a chair, stick the kettle on, let's have a natter about vinyl!
                         </div>
                     </div>
                 </div>
@@ -276,32 +276,32 @@
 
                 <div class="qa-item" onclick="toggleQA(this)">
                     <div class="qa-question"><span>How do I tell if my record is a first pressing?</span><span>+</span></div>
-                    <div class="qa-answer">Check the dead wax — that's the smooth area between the last groove and the label. You'll find matrix numbers etched or stamped there. A/B or A1/B1 stamper codes often indicate early pressings. The label matters too — logos, addresses, and text change over the years. For example, early UK Parlophone labels have a gold/black design that later became silver/black. Discogs is your best friend here — search the catalogue number, compare matrix codes. First pressings are usually worth significantly more, but condition is king. A VG+ first pressing might be worth less than a NM reissue depending on demand.</div>
+                    <div class="qa-answer">Check the dead wax â€” that's the smooth area between the last groove and the label. You'll find matrix numbers etched or stamped there. A/B or A1/B1 stamper codes often indicate early pressings. The label matters too â€” logos, addresses, and text change over the years. For example, early UK Parlophone labels have a gold/black design that later became silver/black. Discogs is your best friend here â€” search the catalogue number, compare matrix codes. First pressings are usually worth significantly more, but condition is king. A VG+ first pressing might be worth less than a NM reissue depending on demand.</div>
                 </div>
 
                 <div class="qa-item" onclick="toggleQA(this)">
                     <div class="qa-question"><span>What does VG+ actually mean?</span><span>+</span></div>
-                    <div class="qa-answer">Goldmine grading scale — the industry standard. Mint (M) means literally perfect and unplayed, still sealed. Near Mint (NM) is nearly perfect with maybe some minor sleeve handling marks. Very Good Plus (VG+) shows some play but sounds great with only light surface noise in quiet passages. Very Good (VG) has consistent play wear and noticeable surface noise. Good Plus (G+) has heavy wear but plays through. Good (G) is very heavy wear. Fair and Poor are basically damaged. Most records you'll find at car boots and charity shops are VG to VG+ range. That's perfectly fine for listening — not everything needs to be NM.</div>
+                    <div class="qa-answer">Goldmine grading scale â€” the industry standard. Mint (M) means literally perfect and unplayed, still sealed. Near Mint (NM) is nearly perfect with maybe some minor sleeve handling marks. Very Good Plus (VG+) shows some play but sounds great with only light surface noise in quiet passages. Very Good (VG) has consistent play wear and noticeable surface noise. Good Plus (G+) has heavy wear but plays through. Good (G) is very heavy wear. Fair and Poor are basically damaged. Most records you'll find at car boots and charity shops are VG to VG+ range. That's perfectly fine for listening â€” not everything needs to be NM.</div>
                 </div>
 
                 <div class="qa-item" onclick="toggleQA(this)">
                     <div class="qa-question"><span>Is vinyl actually better than digital?</span><span>+</span></div>
-                    <div class="qa-answer">Honestly mate? It depends what you mean by "better." A well-mastered vinyl on a decent setup can sound incredible — warm, dynamic, present. But a well-mastered high-res digital file through good headphones is technically more accurate. The real difference is the ritual. You choose an album. You pull it from the sleeve. You place it on the platter, lower the stylus. You listen to a full side because getting up to skip tracks is effort. That intentionality changes how you hear music. Plus album art at 12 inches is proper art. So is vinyl "better"? It's different. It's more intentional. And it's more fun. That's enough for me.</div>
+                    <div class="qa-answer">Honestly mate? It depends what you mean by "better." A well-mastered vinyl on a decent setup can sound incredible â€” warm, dynamic, present. But a well-mastered high-res digital file through good headphones is technically more accurate. The real difference is the ritual. You choose an album. You pull it from the sleeve. You place it on the platter, lower the stylus. You listen to a full side because getting up to skip tracks is effort. That intentionality changes how you hear music. Plus album art at 12 inches is proper art. So is vinyl "better"? It's different. It's more intentional. And it's more fun. That's enough for me.</div>
                 </div>
 
                 <div class="qa-item" onclick="toggleQA(this)">
-                    <div class="qa-question"><span>My records sound crackly — what's wrong?</span><span>+</span></div>
-                    <div class="qa-answer">Could be a few things. Most common: dirty records. Give them a proper clean — a Spin-Clean is about 80 quid and it's the best investment you'll make. Static is another big one — get an anti-static brush and use it before every play. Carbon fibre, one revolution, lift off. If the crackle is on every record, check your stylus — a worn or damaged stylus will make everything sound rough and it's damaging your records every time you play. Replace styli regularly (every 500-1000 hours depending on the cartridge). Also check your tracking force — too light and the stylus bounces, too heavy and it digs in. Your cartridge manufacturer will have a recommended range. And store records in proper anti-static inner sleeves — those paper ones that come with records are rubbish.</div>
+                    <div class="qa-question"><span>My records sound crackly â€” what's wrong?</span><span>+</span></div>
+                    <div class="qa-answer">Could be a few things. Most common: dirty records. Give them a proper clean â€” a Spin-Clean is about 80 quid and it's the best investment you'll make. Static is another big one â€” get an anti-static brush and use it before every play. Carbon fibre, one revolution, lift off. If the crackle is on every record, check your stylus â€” a worn or damaged stylus will make everything sound rough and it's damaging your records every time you play. Replace styli regularly (every 500-1000 hours depending on the cartridge). Also check your tracking force â€” too light and the stylus bounces, too heavy and it digs in. Your cartridge manufacturer will have a recommended range. And store records in proper anti-static inner sleeves â€” those paper ones that come with records are rubbish.</div>
                 </div>
 
                 <div class="qa-item" onclick="toggleQA(this)">
                     <div class="qa-question"><span>Where's the best place to buy vinyl in the UK?</span><span>+</span></div>
-                    <div class="qa-answer">Independent record shops are the heart and soul. Spillers in Cardiff is the oldest record shop in the world — since 1894. Rough Trade in London (East, West, and Denmark Street). Jumbo Records in Leeds. Piccadilly Records in Manchester. Sister Ray and Phonica in Soho. For bargains, record fairs are unbeatable — VIP Record Fairs run them all over the country. Charity shops and car boot sales still turn up gold if you're patient. Online: Discogs is the marketplace. Juno for electronic and dance. Norman Records for indie. And don't sleep on eBay — filter by "sold" prices to know what things actually sell for, not what people are asking.</div>
+                    <div class="qa-answer">Independent record shops are the heart and soul. Spillers in Cardiff is the oldest record shop in the world â€” since 1894. Rough Trade in London (East, West, and Denmark Street). Jumbo Records in Leeds. Piccadilly Records in Manchester. Sister Ray and Phonica in Soho. For bargains, record fairs are unbeatable â€” VIP Record Fairs run them all over the country. Charity shops and car boot sales still turn up gold if you're patient. Online: Discogs is the marketplace. Juno for electronic and dance. Norman Records for indie. And don't sleep on eBay â€” filter by "sold" prices to know what things actually sell for, not what people are asking.</div>
                 </div>
 
                 <div class="qa-item" onclick="toggleQA(this)">
                     <div class="qa-question"><span>What's the best starter turntable?</span><span>+</span></div>
-                    <div class="qa-answer">For brand new on a budget: Audio-Technica LP60X (around 130 quid, fully automatic, built-in preamp, just plug in and go). When you're ready to step up: Audio-Technica LP120X (around 300 quid, direct drive, proper counterweight, upgrade path for cartridges) or a Rega Planar 1 (around 280 quid, belt drive, beautiful build quality). The jump from a cheap all-in-one to any of these is massive — like going from watching telly through a window to sitting on the sofa. But honestly? If you've got a Crosley suitcase player and you're enjoying music, that's what matters. The upgrade will happen when you're ready. Don't let gear snobbery put you off the music.</div>
+                    <div class="qa-answer">For brand new on a budget: Audio-Technica LP60X (around 130 quid, fully automatic, built-in preamp, just plug in and go). When you're ready to step up: Audio-Technica LP120X (around 300 quid, direct drive, proper counterweight, upgrade path for cartridges) or a Rega Planar 1 (around 280 quid, belt drive, beautiful build quality). The jump from a cheap all-in-one to any of these is massive â€” like going from watching telly through a window to sitting on the sofa. But honestly? If you've got a Crosley suitcase player and you're enjoying music, that's what matters. The upgrade will happen when you're ready. Don't let gear snobbery put you off the music.</div>
                 </div>
 
                 <div class="qa-item" onclick="toggleQA(this)">
@@ -311,7 +311,7 @@
 
                 <div class="qa-item" onclick="toggleQA(this)">
                     <div class="qa-question"><span>How do I sell my vinyl collection?</span><span>+</span></div>
-                    <div class="qa-answer">First: check Discogs for sold prices, not listed prices. That's what people actually paid. Grade honestly — sellers who overgrade get bad feedback fast. For valuable records (50 quid+), list them individually on Discogs. For bulk collections, your local record shop might make an offer for the lot — you'll get less per record but save hours of listing. Record fairs are great if you want to sell face-to-face — rent a table and bring the good stuff. For common records in average condition: be realistic, they might be worth more as listening copies than resale stock. And never chuck records in a skip without checking — that battered box in the attic might have a first pressing worth hundreds.</div>
+                    <div class="qa-answer">First: check Discogs for sold prices, not listed prices. That's what people actually paid. Grade honestly â€” sellers who overgrade get bad feedback fast. For valuable records (50 quid+), list them individually on Discogs. For bulk collections, your local record shop might make an offer for the lot â€” you'll get less per record but save hours of listing. Record fairs are great if you want to sell face-to-face â€” rent a table and bring the good stuff. For common records in average condition: be realistic, they might be worth more as listening copies than resale stock. And never chuck records in a skip without checking â€” that battered box in the attic might have a first pressing worth hundreds.</div>
                 </div>
             </div>
         </div>
@@ -321,7 +321,7 @@
         <!-- ============================================ -->
         <div id="section-cratedig" class="hidden">
             <div class="card" style="background: linear-gradient(135deg, #1c1917 0%, #44403c 100%); color: white; text-align: center;">
-                <div class="text-5xl mb-3">📦</div>
+                <div class="text-5xl mb-3">ðŸ“¦</div>
                 <h2 class="text-2xl font-bold mb-1">The Crate Dig</h2>
                 <p class="text-white/80 text-sm">Genre touchstones, record fairs, shops &amp; communities</p>
                 <p class="text-white/60 text-xs mt-1 caveat" style="font-size:16px">"Every crate has a story. Every record has a soul."</p>
@@ -329,67 +329,67 @@
 
             <!-- Genre Touchstones -->
             <div class="card">
-                <h3 class="font-bold text-stone-800 mb-4">The Crates — Genre Touchstones</h3>
+                <h3 class="font-bold text-stone-800 mb-4">The Crates â€” Genre Touchstones</h3>
                 <p class="text-sm text-stone-500 mb-4">One iconic record per genre. The records that defined a sound. Start here.</p>
                 <div class="grid grid-cols-2 gap-3">
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🇯🇲</div>
+                        <div class="text-3xl mb-2">ðŸ‡¯ðŸ‡²</div>
                         <p class="font-bold text-sm">Reggae</p>
-                        <p class="text-xs text-stone-500">Bob Marley — Exodus</p>
+                        <p class="text-xs text-stone-500">Bob Marley â€” Exodus</p>
                         <p class="text-xs text-stone-400">Island ILPS 9498, 1977</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🎷</div>
+                        <div class="text-3xl mb-2">ðŸŽ·</div>
                         <p class="font-bold text-sm">Jazz</p>
-                        <p class="text-xs text-stone-500">Miles Davis — Kind of Blue</p>
+                        <p class="text-xs text-stone-500">Miles Davis â€” Kind of Blue</p>
                         <p class="text-xs text-stone-400">Columbia 6-eye, 1959</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🤘</div>
+                        <div class="text-3xl mb-2">ðŸ¤˜</div>
                         <p class="font-bold text-sm">Punk</p>
-                        <p class="text-xs text-stone-500">Sex Pistols — Never Mind the Bollocks</p>
+                        <p class="text-xs text-stone-500">Sex Pistols â€” Never Mind the Bollocks</p>
                         <p class="text-xs text-stone-400">Virgin V2086, 1977</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🎤</div>
+                        <div class="text-3xl mb-2">ðŸŽ¤</div>
                         <p class="font-bold text-sm">Hip Hop</p>
-                        <p class="text-xs text-stone-500">Afrika Bambaataa — Planet Rock</p>
+                        <p class="text-xs text-stone-500">Afrika Bambaataa â€” Planet Rock</p>
                         <p class="text-xs text-stone-400">Tommy Boy 12", 1982</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🔊</div>
+                        <div class="text-3xl mb-2">ðŸ”Š</div>
                         <p class="font-bold text-sm">Jungle / DnB</p>
-                        <p class="text-xs text-stone-500">Metalheadz — early pressings</p>
+                        <p class="text-xs text-stone-500">Metalheadz â€” early pressings</p>
                         <p class="text-xs text-stone-400">Goldie's label, est. 1994</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🎹</div>
+                        <div class="text-3xl mb-2">ðŸŽ¹</div>
                         <p class="font-bold text-sm">Electronic</p>
-                        <p class="text-xs text-stone-500">Warp — Artificial Intelligence</p>
+                        <p class="text-xs text-stone-500">Warp â€” Artificial Intelligence</p>
                         <p class="text-xs text-stone-400">Sheffield, 1992</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🎺</div>
+                        <div class="text-3xl mb-2">ðŸŽº</div>
                         <p class="font-bold text-sm">Ska</p>
                         <p class="text-xs text-stone-500">Studio One originals</p>
                         <p class="text-xs text-stone-400">Coxsone Dodd, 1960s</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🎶</div>
+                        <div class="text-3xl mb-2">ðŸŽ¶</div>
                         <p class="font-bold text-sm">Dub</p>
-                        <p class="text-xs text-stone-500">King Tubby — Dub From The Roots</p>
+                        <p class="text-xs text-stone-500">King Tubby â€” Dub From The Roots</p>
                         <p class="text-xs text-stone-400">Kingston, 1975</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">💃</div>
+                        <div class="text-3xl mb-2">ðŸ’ƒ</div>
                         <p class="font-bold text-sm">Northern Soul</p>
                         <p class="text-xs text-stone-500">Rare US 7" imports</p>
                         <p class="text-xs text-stone-400">Wigan Casino era</p>
                     </div>
                     <div class="genre-card">
-                        <div class="text-3xl mb-2">🌀</div>
+                        <div class="text-3xl mb-2">ðŸŒ€</div>
                         <p class="font-bold text-sm">Acid / Trance</p>
-                        <p class="text-xs text-stone-500">Phuture — Acid Tracks</p>
+                        <p class="text-xs text-stone-500">Phuture â€” Acid Tracks</p>
                         <p class="text-xs text-stone-400">Trax Records, 1987</p>
                     </div>
                 </div>
@@ -400,15 +400,15 @@
                 <h3 class="font-bold text-stone-800 mb-3">UK Record Fairs</h3>
                 <p class="text-sm text-stone-500 mb-4">Nothing beats digging through crates in person. Bring cash, wear comfy shoes, get there early.</p>
                 <a href="https://vip-24.com/events-diary/" target="_blank" class="shop-link">
-                    <strong>VIP Record Fairs</strong> — UK's biggest chain, 50+ years running
+                    <strong>VIP Record Fairs</strong> â€” UK's biggest chain, 50+ years running
                     <span class="text-xs text-stone-400 block mt-1">Events nationwide. Entry from 3 quid.</span>
                 </a>
                 <a href="https://sites.google.com/site/recordfairsuk/calendar" target="_blank" class="shop-link">
-                    <strong>Record Fairs UK Calendar</strong> — Comprehensive nationwide listings
+                    <strong>Record Fairs UK Calendar</strong> â€” Comprehensive nationwide listings
                     <span class="text-xs text-stone-400 block mt-1">Every fair, every town, regularly updated.</span>
                 </a>
                 <a href="https://www.vinyldazerecordfairs.co.uk/record-and-cd-fairs" target="_blank" class="shop-link">
-                    <strong>Vinyl Daze Record Fairs</strong> — Independent fair listings
+                    <strong>Vinyl Daze Record Fairs</strong> â€” Independent fair listings
                     <span class="text-xs text-stone-400 block mt-1">Multiple dates throughout the UK.</span>
                 </a>
             </div>
@@ -418,27 +418,27 @@
                 <h3 class="font-bold text-stone-800 mb-3">Legendary UK Record Shops</h3>
                 <p class="text-sm text-stone-500 mb-4">Support your local independent. These are the ones worth a pilgrimage.</p>
                 <a href="http://spillersrecords.uk/" target="_blank" class="shop-link">
-                    <strong>Spillers Records</strong> — Cardiff <span class="text-xs bg-amber-100 text-amber-800 px-2 py-0.5 rounded ml-2">Est. 1894</span>
+                    <strong>Spillers Records</strong> â€” Cardiff <span class="text-xs bg-amber-100 text-amber-800 px-2 py-0.5 rounded ml-2">Est. 1894</span>
                     <span class="text-xs text-stone-400 block mt-1">The world's oldest record shop. Morgan Arcade.</span>
                 </a>
                 <a href="https://www.roughtrade.com/en-gb/stores" target="_blank" class="shop-link">
-                    <strong>Rough Trade</strong> — London (East, West &amp; Denmark St)
+                    <strong>Rough Trade</strong> â€” London (East, West &amp; Denmark St)
                     <span class="text-xs text-stone-400 block mt-1">The flagship. Live events 7 days a week.</span>
                 </a>
                 <a href="https://www.piccadillyrecords.com/" target="_blank" class="shop-link">
-                    <strong>Piccadilly Records</strong> — Manchester
+                    <strong>Piccadilly Records</strong> â€” Manchester
                     <span class="text-xs text-stone-400 block mt-1">Northern Quarter institution since 1978.</span>
                 </a>
                 <a href="https://www.jumborecords.co.uk/" target="_blank" class="shop-link">
-                    <strong>Jumbo Records</strong> — Leeds
+                    <strong>Jumbo Records</strong> â€” Leeds
                     <span class="text-xs text-stone-400 block mt-1">Since 1971. Strong reggae &amp; punk heritage.</span>
                 </a>
                 <a href="https://www.phonicarecords.com/" target="_blank" class="shop-link">
-                    <strong>Phonica Records</strong> — London Soho
+                    <strong>Phonica Records</strong> â€” London Soho
                     <span class="text-xs text-stone-400 block mt-1">Electronic &amp; dance specialists. Poland Street.</span>
                 </a>
                 <a href="https://sisterray.co.uk/" target="_blank" class="shop-link">
-                    <strong>Sister Ray</strong> — London Soho
+                    <strong>Sister Ray</strong> â€” London Soho
                     <span class="text-xs text-stone-400 block mt-1">Berwick Street legend since 1989. Second-hand heaven.</span>
                 </a>
             </div>
@@ -448,23 +448,23 @@
                 <h3 class="font-bold text-stone-800 mb-3">Online Communities</h3>
                 <p class="text-sm text-stone-500 mb-4">Your people. Find them. Chat records. Argue about pressings. It's what we do.</p>
                 <a href="https://www.discogs.com" target="_blank" class="shop-link">
-                    <strong>Discogs</strong> — The vinyl bible
+                    <strong>Discogs</strong> â€” The vinyl bible
                     <span class="text-xs text-stone-400 block mt-1">Database, marketplace, collection tracker. 18M+ releases catalogued.</span>
                 </a>
                 <a href="https://forums.stevehoffman.tv/" target="_blank" class="shop-link">
-                    <strong>Steve Hoffman Forums</strong> — The deep end
+                    <strong>Steve Hoffman Forums</strong> â€” The deep end
                     <span class="text-xs text-stone-400 block mt-1">135K+ members. Mastering discussions, pressing comparisons, proper audiophile chat.</span>
                 </a>
                 <a href="https://www.vinylengine.com/" target="_blank" class="shop-link">
-                    <strong>Vinyl Engine</strong> — The turntable archive
+                    <strong>Vinyl Engine</strong> â€” The turntable archive
                     <span class="text-xs text-stone-400 block mt-1">Manuals, schematics, reviews for every turntable ever made.</span>
                 </a>
                 <a href="https://www.thevinylfactory.com/" target="_blank" class="shop-link">
-                    <strong>The Vinyl Factory</strong> — UK pressing plant &amp; label
+                    <strong>The Vinyl Factory</strong> â€” UK pressing plant &amp; label
                     <span class="text-xs text-stone-400 block mt-1">The machines that pressed The Beatles. Still pressing. Hayes, West London.</span>
                 </a>
                 <a href="https://www.reddit.com/r/vinyl/" target="_blank" class="shop-link">
-                    <strong>r/vinyl</strong> — Reddit's vinyl community
+                    <strong>r/vinyl</strong> â€” Reddit's vinyl community
                     <span class="text-xs text-stone-400 block mt-1">Show off your hauls, ask questions, get roasted by strangers.</span>
                 </a>
             </div>
@@ -475,7 +475,7 @@
         <!-- ============================================ -->
         <div id="section-care" class="hidden">
             <div class="card" style="background: linear-gradient(135deg, #1c1917 0%, #44403c 100%); color: white; text-align: center;">
-                <div class="text-5xl mb-3">🧹</div>
+                <div class="text-5xl mb-3">ðŸ§¹</div>
                 <h2 class="text-2xl font-bold mb-1">Vinyl Care</h2>
                 <p class="text-white/80 text-sm">Look after your records and they'll look after you</p>
             </div>
@@ -485,15 +485,15 @@
                 <h3 class="font-bold text-stone-800 mb-3">Cleaning Your Records</h3>
                 <div class="space-y-4 text-sm text-stone-600">
                     <div class="flex gap-3">
-                        <span class="text-2xl">1️⃣</span>
+                        <span class="text-2xl">1ï¸âƒ£</span>
                         <div><strong>Before Every Play:</strong> Anti-static carbon fibre brush. One revolution with the record spinning, then lift off towards the centre. This removes surface dust and reduces static. Takes 5 seconds. Do it every time.</div>
                     </div>
                     <div class="flex gap-3">
-                        <span class="text-2xl">2️⃣</span>
+                        <span class="text-2xl">2ï¸âƒ£</span>
                         <div><strong>Deep Clean (weekly diggers):</strong> Spin-Clean Record Washer (~80 quid). Velvet pads scrub both sides while the record rotates in cleaning fluid. Dry with lint-free cloths. The difference on charity shop finds is night and day.</div>
                     </div>
                     <div class="flex gap-3">
-                        <span class="text-2xl">3️⃣</span>
+                        <span class="text-2xl">3ï¸âƒ£</span>
                         <div><strong>The Nuclear Option:</strong> Ultrasonic cleaners (Degritter, HumminGuru). They use high-frequency sound waves to blast dirt from the grooves. Expensive (400 quid+) but nothing cleans deeper. Worth it if you're serious about your collection.</div>
                     </div>
                 </div>
@@ -503,11 +503,11 @@
             <div class="card">
                 <h3 class="font-bold text-stone-800 mb-3">Storage Rules</h3>
                 <div class="space-y-3 text-sm text-stone-600">
-                    <p><strong>Always store vertically.</strong> Like books on a shelf. Never stack horizontally — the weight warps the bottom records.</p>
+                    <p><strong>Always store vertically.</strong> Like books on a shelf. Never stack horizontally â€” the weight warps the bottom records.</p>
                     <p><strong>Replace paper inner sleeves</strong> with anti-static poly-lined or MOFI sleeves. Those old paper inners scratch your records every time you pull them out.</p>
                     <p><strong>Use outer sleeves.</strong> Clear polypropylene. Protects the artwork and keeps dust out. Pennies each, saves pounds of damage.</p>
                     <p><strong>Keep away from heat.</strong> No radiators. No direct sunlight. No attics (temperature swings). No garages (damp). A Kallax shelf in a normal room is perfect.</p>
-                    <p><strong>Don't pack too tight or too loose.</strong> Tight = ring wear on the sleeves. Loose = records lean and warp. Snug but comfortable — like a good hug.</p>
+                    <p><strong>Don't pack too tight or too loose.</strong> Tight = ring wear on the sleeves. Loose = records lean and warp. Snug but comfortable â€” like a good hug.</p>
                 </div>
             </div>
 
@@ -516,7 +516,7 @@
                 <h3 class="font-bold text-stone-800 mb-3">Stylus Care</h3>
                 <div class="space-y-3 text-sm text-stone-600">
                     <p><strong>Replace regularly.</strong> A worn stylus damages records. Budget styli: every 300-500 hours. Quality styli: 500-1000 hours. If in doubt, replace it.</p>
-                    <p><strong>Clean before every session.</strong> Stylus brush (back to front only, never side to side). Or a gel pad — just lower the stylus onto it and lift. Magic.</p>
+                    <p><strong>Clean before every session.</strong> Stylus brush (back to front only, never side to side). Or a gel pad â€” just lower the stylus onto it and lift. Magic.</p>
                     <p><strong>Check tracking force.</strong> Too light = skipping and mistracking. Too heavy = excessive groove wear. Get a digital stylus gauge (10 quid) and set it to your cartridge's recommended range.</p>
                     <p><strong>Handle with care.</strong> Never touch the diamond tip. Never lower the stylus onto a spinning record without the cueing lever. And for the love of all that's holy, never leave the stylus sitting in the run-out groove.</p>
                 </div>
@@ -524,31 +524,31 @@
 
             <!-- Grading Guide -->
             <div class="card">
-                <h3 class="font-bold text-stone-800 mb-3">Goldmine Grading — Quick Reference</h3>
+                <h3 class="font-bold text-stone-800 mb-3">Goldmine Grading â€” Quick Reference</h3>
                 <div class="space-y-2 text-sm">
                     <div class="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
                         <span class="font-bold text-green-700 w-12">M</span>
-                        <span class="text-stone-600"><strong>Mint</strong> — Perfect. Unplayed. Still sealed.</span>
+                        <span class="text-stone-600"><strong>Mint</strong> â€” Perfect. Unplayed. Still sealed.</span>
                     </div>
                     <div class="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
                         <span class="font-bold text-green-600 w-12">NM</span>
-                        <span class="text-stone-600"><strong>Near Mint</strong> — Nearly perfect. Minimal handling marks.</span>
+                        <span class="text-stone-600"><strong>Near Mint</strong> â€” Nearly perfect. Minimal handling marks.</span>
                     </div>
                     <div class="flex items-center gap-3 p-3 bg-amber-50 rounded-lg">
                         <span class="font-bold text-amber-600 w-12">VG+</span>
-                        <span class="text-stone-600"><strong>Very Good+</strong> — Light marks. Great sound. Minor surface noise.</span>
+                        <span class="text-stone-600"><strong>Very Good+</strong> â€” Light marks. Great sound. Minor surface noise.</span>
                     </div>
                     <div class="flex items-center gap-3 p-3 bg-amber-50 rounded-lg">
                         <span class="font-bold text-amber-700 w-12">VG</span>
-                        <span class="text-stone-600"><strong>Very Good</strong> — Play wear. Noticeable surface noise.</span>
+                        <span class="text-stone-600"><strong>Very Good</strong> â€” Play wear. Noticeable surface noise.</span>
                     </div>
                     <div class="flex items-center gap-3 p-3 bg-orange-50 rounded-lg">
                         <span class="font-bold text-orange-600 w-12">G+</span>
-                        <span class="text-stone-600"><strong>Good+</strong> — Heavy wear. Plays through without skipping.</span>
+                        <span class="text-stone-600"><strong>Good+</strong> â€” Heavy wear. Plays through without skipping.</span>
                     </div>
                     <div class="flex items-center gap-3 p-3 bg-red-50 rounded-lg">
                         <span class="font-bold text-red-600 w-12">G/F/P</span>
-                        <span class="text-stone-600"><strong>Good / Fair / Poor</strong> — Very heavy wear to damaged.</span>
+                        <span class="text-stone-600"><strong>Good / Fair / Poor</strong> â€” Very heavy wear to damaged.</span>
                     </div>
                 </div>
             </div>
@@ -559,7 +559,7 @@
         <!-- ============================================ -->
         <div id="section-gear" class="hidden">
             <div class="card" style="background: linear-gradient(135deg, #1c1917 0%, #44403c 100%); color: white; text-align: center;">
-                <div class="text-5xl mb-3">🎛️</div>
+                <div class="text-5xl mb-3">ðŸŽ›ï¸</div>
                 <h2 class="text-2xl font-bold mb-1">The Gear</h2>
                 <p class="text-white/80 text-sm">Uncle Kevin's picks. Tried, tested, trusted.</p>
                 <p class="text-white/50 text-xs mt-1">Affiliate links support the village. Same price for you.</p>
@@ -663,10 +663,10 @@
                 <h3 class="font-bold text-stone-800 mb-3">Hi-Fi Reading</h3>
                 <p class="text-sm text-stone-500 mb-4">Want to go deeper? These lot know their stuff.</p>
                 <a href="https://www.whathifi.com/" target="_blank" class="shop-link">
-                    <strong>What Hi-Fi?</strong> — Reviews &amp; buying guides since 1976
+                    <strong>What Hi-Fi?</strong> â€” Reviews &amp; buying guides since 1976
                 </a>
                 <a href="https://www.thevinylfactory.com/features" target="_blank" class="shop-link">
-                    <strong>The Vinyl Factory</strong> — Features, pressing stories, shop guides
+                    <strong>The Vinyl Factory</strong> â€” Features, pressing stories, shop guides
                 </a>
             </div>
         </div>
@@ -677,7 +677,7 @@
         <div id="section-meet" class="hidden">
 
             <div class="card" style="background: linear-gradient(135deg, #1c1917 0%, #44403c 100%); color: white; text-align: center;">
-                <div class="text-5xl mb-3" aria-hidden="true">📍</div>
+                <div class="text-5xl mb-3" aria-hidden="true">ðŸ“</div>
                 <h2 class="text-2xl font-bold mb-1">Find Me Here</h2>
                 <p class="text-white/80 text-sm">Share exactly where you are at any record fair, boot sale, or meet-up.<br>Three words. No postcodes. Spot on.</p>
             </div>
@@ -688,12 +688,12 @@
                     class="btn btn-primary w-full"
                     style="min-height: 80px; font-size: 22px; font-weight: 900; border-radius: 16px; margin-bottom: 20px;"
                     aria-label="Find my current location using GPS">
-                    📍 Where Am I?
+                    ðŸ“ Where Am I?
                 </button>
 
                 <!-- Loading -->
                 <div id="meetLoading" class="hidden py-4 text-stone-500 font-semibold" aria-live="polite" role="status">
-                    <div class="vinyl-spin text-4xl mb-2" aria-hidden="true">💿</div>
+                    <div class="vinyl-spin text-4xl mb-2" aria-hidden="true">ðŸ’¿</div>
                     Getting your location...
                 </div>
 
@@ -706,16 +706,16 @@
                     <p id="meetW3W" class="w3w-address mb-4" aria-label="Your what3words address"></p>
                     <div class="flex gap-3 mb-4">
                         <button onclick="meetCopy(event)" class="btn btn-primary flex-1" style="min-height: 60px; font-size: 18px; font-weight: 700;" aria-label="Copy your three word address to clipboard">
-                            📋 Copy
+                            ðŸ“‹ Copy
                         </button>
                         <button onclick="meetShare()" class="btn btn-outline flex-1" style="min-height: 60px; font-size: 18px; font-weight: 700;" aria-label="Share your location">
-                            🔗 Share
+                            ðŸ”— Share
                         </button>
                     </div>
                     <a id="meetMapLink" href="#" target="_blank" rel="noopener"
                         class="inline-block text-amber-600 font-bold underline text-base"
                         aria-label="Open your location on the what3words map">
-                        Open on what3words map ↗
+                        Open on what3words map â†—
                     </a>
                 </div>
             </div>
@@ -725,10 +725,10 @@
                 <h3 class="font-bold text-stone-800 mb-1" style="font-size: 18px;">What's your spot?</h3>
                 <p class="text-sm text-stone-500 mb-4">Tap to label your location before you share it.</p>
                 <div class="grid grid-cols-2 gap-3" id="meetUseCases" role="group" aria-label="Location labels">
-                    <button class="meet-use-btn" onclick="meetSetLabel(this, '📦 My Stall')" aria-label="Label as My Stall">📦 My Stall</button>
-                    <button class="meet-use-btn" onclick="meetSetLabel(this, '🎵 Meet at the Crates')" aria-label="Label as Meet at the Crates">🎵 Meet at the Crates</button>
-                    <button class="meet-use-btn" onclick="meetSetLabel(this, '🚗 My Car')" aria-label="Label as My Car">🚗 My Car</button>
-                    <button class="meet-use-btn" onclick="meetSetLabel(this, '🏪 This Fair')" aria-label="Label as This Fair">🏪 This Fair</button>
+                    <button class="meet-use-btn" onclick="meetSetLabel(this, 'ðŸ“¦ My Stall')" aria-label="Label as My Stall">ðŸ“¦ My Stall</button>
+                    <button class="meet-use-btn" onclick="meetSetLabel(this, 'ðŸŽµ Meet at the Crates')" aria-label="Label as Meet at the Crates">ðŸŽµ Meet at the Crates</button>
+                    <button class="meet-use-btn" onclick="meetSetLabel(this, 'ðŸš— My Car')" aria-label="Label as My Car">ðŸš— My Car</button>
+                    <button class="meet-use-btn" onclick="meetSetLabel(this, 'ðŸª This Fair')" aria-label="Label as This Fair">ðŸª This Fair</button>
                 </div>
                 <p id="meetLabel" class="hidden text-center font-extrabold text-amber-700 mt-4" style="font-size: 20px;" aria-live="polite"></p>
             </div>
@@ -740,7 +740,7 @@
                 <div class="relative">
                     <input type="text" id="meetManualInput"
                         placeholder="e.g. filled.count.soap"
-                        aria-label="Enter a what3words address — three words separated by dots"
+                        aria-label="Enter a what3words address â€” three words separated by dots"
                         class="w-full px-4 py-4 border-2 border-stone-300 rounded-xl focus:border-amber-500 focus:outline-none"
                         style="font-size: 18px;"
                         oninput="meetAutoSuggest(this.value)"
@@ -755,7 +755,7 @@
                     class="btn btn-primary w-full mt-3"
                     style="min-height: 56px; font-size: 18px;"
                     aria-label="Look up this what3words address">
-                    Look It Up →
+                    Look It Up â†’
                 </button>
             </div>
 
@@ -772,7 +772,7 @@
             <!-- W3W CREDIT -->
             <div class="card text-center" style="background: #f0f9ff; border: 2px solid #bae6fd;">
                 <p class="font-semibold text-stone-700" style="font-size: 16px;">Powered by <a href="https://what3words.com" target="_blank" rel="noopener" class="font-bold text-blue-600 underline" aria-label="Visit what3words website">what3words</a></p>
-                <p class="text-sm text-stone-500 mt-1">Every 3m² on Earth has a unique 3-word address.<br>Most people have never heard of it — now you have.</p>
+                <p class="text-sm text-stone-500 mt-1">Every 3mÂ² on Earth has a unique 3-word address.<br>Most people have never heard of it â€” now you have.</p>
             </div>
         </div>
 
@@ -875,8 +875,8 @@
 
     <!-- Quick Nav FAB -->
     <div id="quickNav" class="hidden fixed bottom-4 right-4 flex flex-col gap-2 z-30">
-        <button onclick="showView('leaderboard')" class="bg-white hover:bg-stone-50 text-stone-800 font-bold py-3 px-4 rounded-full shadow-lg transition text-lg">🏆</button>
-        <button onclick="showView('qr')" class="bg-white hover:bg-stone-50 text-stone-800 font-bold py-3 px-4 rounded-full shadow-lg transition text-lg">📱</button>
+        <button onclick="showView('leaderboard')" class="bg-white hover:bg-stone-50 text-stone-800 font-bold py-3 px-4 rounded-full shadow-lg transition text-lg">ðŸ†</button>
+        <button onclick="showView('qr')" class="bg-white hover:bg-stone-50 text-stone-800 font-bold py-3 px-4 rounded-full shadow-lg transition text-lg">ðŸ“±</button>
     </div>
 
     <!-- Support / Join the Village -->
@@ -886,39 +886,39 @@
             <p class="text-sm text-stone-600 mb-5 text-center">Everything here is free to use. Supporting the village keeps it growing.</p>
             <div class="grid md:grid-cols-3 gap-4 mb-4">
                 <div class="bg-white rounded-xl p-5 border border-amber-200 shadow-sm">
-                    <p class="text-2xl mb-2 text-center">🏡</p>
+                    <p class="text-2xl mb-2 text-center">ðŸ¡</p>
                     <p class="font-bold text-stone-800 text-lg text-center">Villager</p>
-                    <p class="text-amber-600 font-bold text-xl mb-3 text-center">£3/month</p>
+                    <p class="text-amber-600 font-bold text-xl mb-3 text-center">Â£3/month</p>
                     <ul class="text-stone-600 text-sm space-y-1 mb-3">
-                        <li>✓ Your hut in the village</li>
-                        <li>✓ Kudos &amp; leaderboard</li>
-                        <li>✓ Village activity feed</li>
-                        <li>✓ Recognised across all -Oids</li>
+                        <li>âœ“ Your hut in the village</li>
+                        <li>âœ“ Kudos &amp; leaderboard</li>
+                        <li>âœ“ Village activity feed</li>
+                        <li>âœ“ Recognised across all -Oids</li>
                     </ul>
                     <p class="text-stone-400 text-xs text-center">Cancel anytime.</p>
                 </div>
                 <div class="bg-gradient-to-b from-amber-50 to-white rounded-xl p-5 border-2 border-amber-400 shadow-sm">
-                    <p class="text-2xl mb-2 text-center">⭐</p>
+                    <p class="text-2xl mb-2 text-center">â­</p>
                     <p class="font-bold text-stone-800 text-lg text-center">Elder</p>
-                    <p class="text-amber-600 font-bold text-xl mb-3 text-center">£7/month</p>
+                    <p class="text-amber-600 font-bold text-xl mb-3 text-center">Â£7/month</p>
                     <ul class="text-stone-600 text-sm space-y-1 mb-3">
-                        <li>✓ Everything in Villager</li>
-                        <li>✓ Mini hamlet — your own page</li>
-                        <li>✓ Named in the village roll</li>
-                        <li>✓ Elder badge site-wide</li>
+                        <li>âœ“ Everything in Villager</li>
+                        <li>âœ“ Mini hamlet â€” your own page</li>
+                        <li>âœ“ Named in the village roll</li>
+                        <li>âœ“ Elder badge site-wide</li>
                     </ul>
                     <p class="text-stone-400 text-xs text-center">Cancel anytime.</p>
                 </div>
                 <div class="bg-gradient-to-b from-purple-50 to-white rounded-xl p-5 border-2 border-purple-400 shadow-sm">
-                    <p class="text-2xl mb-2 text-center">👑</p>
+                    <p class="text-2xl mb-2 text-center">ðŸ‘‘</p>
                     <p class="font-bold text-stone-800 text-lg text-center">Founder</p>
-                    <p class="text-amber-600 font-bold text-xl mb-1 text-center">£15/month</p>
+                    <p class="text-amber-600 font-bold text-xl mb-1 text-center">Â£15/month</p>
                     <p class="text-purple-600 text-xs font-bold text-center mb-3">Best Value</p>
                     <ul class="text-stone-600 text-sm space-y-1 mb-3">
-                        <li>✓ Full hamlet suite</li>
-                        <li>✓ Direct line to Chris</li>
-                        <li>✓ Early access to new -Oids</li>
-                        <li>✓ 300 kudos on joining</li>
+                        <li>âœ“ Full hamlet suite</li>
+                        <li>âœ“ Direct line to Chris</li>
+                        <li>âœ“ Early access to new -Oids</li>
+                        <li>âœ“ 300 kudos on joining</li>
                     </ul>
                     <p class="text-stone-400 text-xs text-center">Cancel anytime.</p>
                 </div>
@@ -928,10 +928,10 @@
             </div>
             <p class="text-stone-400 text-xs text-center mb-5">Cancel anytime. Your price locks in while you stay.</p>
             <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-center">
-                <p class="font-bold text-amber-800 text-sm mb-1">🤝 Invite a friend</p>
+                <p class="font-bold text-amber-800 text-sm mb-1">ðŸ¤ Invite a friend</p>
                 <p class="text-stone-600 text-xs mb-3">Earn 50 kudos for every person who joins through your link.</p>
                 <button onclick="copyInviteLink()" class="btn btn-gold w-full" style="font-size:0.9rem; min-height:44px;">Copy your invite link</button>
-                <p class="text-xs text-amber-600 text-center mt-2 hidden" id="inviteCopied">Copied! ✓</p>
+                <p class="text-xs text-amber-600 text-center mt-2 hidden" id="inviteCopied">Copied! âœ“</p>
             </div>
         </div>
     </div>
@@ -939,9 +939,9 @@
     <!-- Hamlet CTA -->
     <div class="py-6 px-4" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
         <div class="max-w-2xl mx-auto text-center text-white">
-            <div class="text-4xl mb-2" aria-hidden="true">🏘️</div>
+            <div class="text-4xl mb-2" aria-hidden="true">ðŸ˜ï¸</div>
             <h3 class="text-xl font-bold mb-2">Run Your Own Record Fair Village</h3>
-            <p class="text-sm opacity-90 mb-4">Got a stall, a shop, or specialist knowledge worth sharing? Get your own hamlet — your page, your QR code, your corner of the village.</p>
+            <p class="text-sm opacity-90 mb-4">Got a stall, a shop, or specialist knowledge worth sharing? Get your own hamlet â€” your page, your QR code, your corner of the village.</p>
             <a href="https://magic-oid.co.uk/hamlet/signup"
                 class="btn"
                 style="background: white; color: #92400e; font-weight: 800; font-size: 16px; min-height: 52px; display: inline-flex; padding: 12px 32px;"
@@ -957,19 +957,19 @@
             <h3 class="text-xl font-bold text-stone-800 mb-4 text-center">The -Oid Villages</h3>
             <p class="text-center text-stone-500 text-sm mb-6">Same AI brain, different expert heads. Each village has its own community.</p>
             <div class="flex flex-wrap gap-2 justify-center">
-                <a href="https://magic-oid.co.uk" class="bg-purple-100 hover:bg-purple-200 text-purple-800 px-3 py-2 rounded-lg font-semibold transition text-sm">🎩 Magic-Oid</a>
-                <a href="https://radi-oid.co.uk" class="bg-orange-100 hover:bg-orange-200 text-orange-800 px-3 py-2 rounded-lg font-semibold transition text-sm">📻 Radi-Oid</a>
-                <a href="https://sail-oid.co.uk" class="bg-blue-100 hover:bg-blue-200 text-blue-800 px-3 py-2 rounded-lg font-semibold transition text-sm">⛵ Sail-Oid</a>
-                <a href="https://cannabin-oid.co.uk" class="bg-green-100 hover:bg-green-200 text-green-800 px-3 py-2 rounded-lg font-semibold transition text-sm">🌿 Cannabin-Oid</a>
-                <a href="https://guit-oid.co.uk" class="bg-amber-100 hover:bg-amber-200 text-amber-800 px-3 py-2 rounded-lg font-semibold transition text-sm">🎸 Guit-Oid</a>
-                <span class="bg-amber-300 text-amber-900 px-3 py-2 rounded-lg font-bold text-sm">💿 Vinyl-Oid (You're here!)</span>
-                <a href="https://coin-oid.co.uk" class="bg-yellow-100 hover:bg-yellow-200 text-yellow-800 px-3 py-2 rounded-lg font-semibold transition text-sm">🪙 Coin-Oid</a>
-                <a href="https://watch-oid.co.uk" class="bg-cyan-100 hover:bg-cyan-200 text-cyan-800 px-3 py-2 rounded-lg font-semibold transition text-sm">⌚ Watch-Oid</a>
-                <a href="https://camera-oid.co.uk" class="bg-rose-100 hover:bg-rose-200 text-rose-800 px-3 py-2 rounded-lg font-semibold transition text-sm">📷 Camera-Oid</a>
-                <a href="https://stamp-oid.co.uk" class="bg-red-100 hover:bg-red-200 text-red-800 px-3 py-2 rounded-lg font-semibold transition text-sm">📮 Stamp-Oid</a>
-                <a href="https://fish-oid.co.uk" class="bg-teal-100 hover:bg-teal-200 text-teal-800 px-3 py-2 rounded-lg font-semibold transition text-sm">🐟 Fish-Oid</a>
-                <a href="https://designer-oid.co.uk" class="bg-pink-100 hover:bg-pink-200 text-pink-800 px-3 py-2 rounded-lg font-semibold transition text-sm">👗 Designer-Oid</a>
-                <a href="https://miniature-oid.co.uk" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 px-3 py-2 rounded-lg font-semibold transition text-sm">🔍 Miniature-Oid</a>
+                <a href="https://magic-oid.co.uk" class="bg-purple-100 hover:bg-purple-200 text-purple-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸŽ© Magic-Oid</a>
+                <a href="https://radi-oid.co.uk" class="bg-orange-100 hover:bg-orange-200 text-orange-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸ“» Radi-Oid</a>
+                <a href="https://sail-oid.co.uk" class="bg-blue-100 hover:bg-blue-200 text-blue-800 px-3 py-2 rounded-lg font-semibold transition text-sm">â›µ Sail-Oid</a>
+                <a href="https://cannabin-oid.co.uk" class="bg-green-100 hover:bg-green-200 text-green-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸŒ¿ Cannabin-Oid</a>
+                <a href="https://guit-oid.co.uk" class="bg-amber-100 hover:bg-amber-200 text-amber-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸŽ¸ Guit-Oid</a>
+                <span class="bg-amber-300 text-amber-900 px-3 py-2 rounded-lg font-bold text-sm">ðŸ’¿ Vinyl-Oid (You're here!)</span>
+                <a href="https://coin-oid.co.uk" class="bg-yellow-100 hover:bg-yellow-200 text-yellow-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸª™ Coin-Oid</a>
+                <a href="https://watch-oid.co.uk" class="bg-cyan-100 hover:bg-cyan-200 text-cyan-800 px-3 py-2 rounded-lg font-semibold transition text-sm">âŒš Watch-Oid</a>
+                <a href="https://camera-oid.co.uk" class="bg-rose-100 hover:bg-rose-200 text-rose-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸ“· Camera-Oid</a>
+                <a href="https://stamp-oid.co.uk" class="bg-red-100 hover:bg-red-200 text-red-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸ“® Stamp-Oid</a>
+                <a href="https://fish-oid.co.uk" class="bg-teal-100 hover:bg-teal-200 text-teal-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸŸ Fish-Oid</a>
+                <a href="https://designer-oid.co.uk" class="bg-pink-100 hover:bg-pink-200 text-pink-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸ‘— Designer-Oid</a>
+                <a href="https://miniature-oid.co.uk" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-800 px-3 py-2 rounded-lg font-semibold transition text-sm">ðŸ” Miniature-Oid</a>
             </div>
         </div>
     </div>
@@ -1000,7 +1000,7 @@
             <h3 class="text-lg font-bold text-amber-300 mb-3">WE ALL STAND ON THE SHOULDERS OF GIANTS</h3>
             <p class="text-sm text-stone-400 mb-4">Thomas Edison &bull; Emile Berliner &bull; Alan Blumlein &bull; Rudy Van Gelder &bull; Lee "Scratch" Perry &bull; King Tubby &bull; Coxsone Dodd</p>
             <p class="text-lg text-amber-400 mb-2 caveat" style="font-size: 22px;">"World domination through kindness. One ember at a time."</p>
-            <p class="text-sm text-stone-500 mb-4">PLUR — Peace Love Unity Respect</p>
+            <p class="text-sm text-stone-500 mb-4">PLUR â€” Peace Love Unity Respect</p>
             <div class="flex flex-wrap gap-3 justify-center mb-4">
                 <a href="https://www.patreon.com/chrisptee" target="_blank" class="text-amber-300 hover:text-amber-200 text-sm transition">Patreon</a>
                 <a href="https://wa.me/447976884254" class="text-green-300 hover:text-green-200 text-sm transition">WhatsApp</a>
@@ -1023,7 +1023,7 @@
             oidName: 'Vinyl-Oid',
             oidSlug: 'vinyl',
             primaryColor: '#d97706',
-            loadingIcon: '💿',
+            loadingIcon: 'ðŸ’¿',
             supabaseUrl: 'https://pdnjeynugptnavkdbmxh.supabase.co',
             supabaseKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBkbmpleW51Z3B0bmF2a2RibXhoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkwMTEzMDAsImV4cCI6MjA4NDU4NzMwMH0.GawisR01EykMtdauBMxenmHF2NXDMzDOJl8WgzkwFQo',
             adminEmails: ['chris@chrisptee.co.uk', 'chris@chrisptee.com', 'glowgadgets@gmail.com']
@@ -1082,20 +1082,20 @@
         // INIT
         // ============================================
         window.onload = async function() {
-            // Patreon first — restore session + handle OAuth callback
+            // Patreon first â€” restore session + handle OAuth callback
             restorePatreonSession();
             handlePatreonCallback();
             const patreonBtn = document.getElementById('patreonSignInBtn');
             if (patreonBtn) patreonBtn.addEventListener('click', e => { e.preventDefault(); signInWithPatreon(); });
 
-            // UI — never blocked by auth
+            // UI â€” never blocked by auth
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
             }, { threshold: 0.1 });
             document.querySelectorAll('.section-fade').forEach(el => observer.observe(el));
             loadBroadcast();
 
-            // Supabase — wrapped so any failure can't kill the page
+            // Supabase â€” wrapped so any failure can't kill the page
             try {
                 const { data: { session } } = await supabaseClient.auth.getSession();
                 if (session) {
@@ -1283,9 +1283,9 @@
                     await supabaseClient.from('users').update({ oid_memberships: [...userData.oid_memberships, CONFIG.oidSlug] }).eq('id', currentUser.id);
                 }
                 const oidCount = userData.oid_memberships.length;
-                let badge = '🏘️ Villager';
-                if (oidCount >= 5) badge = '🐝 Pollinator';
-                else if (oidCount >= 2) badge = '🌉 Bridge Walker';
+                let badge = 'ðŸ˜ï¸ Villager';
+                if (oidCount >= 5) badge = 'ðŸ Spore';
+                else if (oidCount >= 2) badge = 'ðŸŒ‰ Bridge Walker';
                 document.getElementById('userName').textContent = '@' + userData.username;
                 document.getElementById('userBadge').textContent = badge;
                 document.getElementById('userKudos').textContent = userData.kudos || 0;
@@ -1354,10 +1354,10 @@
         }
 
         function showPatreonStatus(tier) {
-            const labels = { founder: '🏛️ Founder', elder: '⚔️ Elder', villager: '🏡 Villager' };
+            const labels = { founder: 'ðŸ›ï¸ Founder', elder: 'âš”ï¸ Elder', villager: 'ðŸ¡ Villager' };
             const bar = document.getElementById('patreonStatusBar');
             const label = document.getElementById('patreonTierLabel');
-            if (label) label.textContent = (labels[tier] || '🏡 Villager') + ' · Patreon Active';
+            if (label) label.textContent = (labels[tier] || 'ðŸ¡ Villager') + ' Â· Patreon Active';
             if (bar) bar.classList.remove('hidden');
         }
 
@@ -1390,9 +1390,9 @@
                 const { data } = await supabaseClient.from('users').select('username, kudos, oid_memberships').order('kudos', { ascending: false }).limit(10);
                 if (data) {
                     document.getElementById('leaderboardList').innerHTML = data.map((u, i) => {
-                        let badge = '🏘️';
-                        if (u.oid_memberships.length >= 5) badge = '🐝';
-                        else if (u.oid_memberships.length >= 2) badge = '🌉';
+                        let badge = 'ðŸ˜ï¸';
+                        if (u.oid_memberships.length >= 5) badge = 'ðŸ';
+                        else if (u.oid_memberships.length >= 2) badge = 'ðŸŒ‰';
                         return `<div class="flex items-center justify-between bg-stone-50 p-4 rounded-xl"><div class="flex items-center gap-3"><span class="text-2xl font-bold text-amber-600">#${i+1}</span><span>${badge}</span><span class="font-bold text-stone-800">@${u.username}</span></div><span class="text-amber-500 font-bold">${u.kudos}</span></div>`;
                     }).join('');
                 }
@@ -1541,7 +1541,7 @@
             chatDiv.innerHTML += `<div class="flex justify-end mb-3"><div class="chat-bubble chat-user">${escapeHtml(question)}</div></div>`;
 
             // Add typing indicator
-            chatDiv.innerHTML += `<div id="kevinTyping" class="flex items-start gap-2 mb-3"><span class="text-2xl flex-shrink-0">🎧</span><div class="chat-bubble chat-kevin chat-typing"><span>.</span><span>.</span><span>.</span></div></div>`;
+            chatDiv.innerHTML += `<div id="kevinTyping" class="flex items-start gap-2 mb-3"><span class="text-2xl flex-shrink-0">ðŸŽ§</span><div class="chat-bubble chat-kevin chat-typing"><span>.</span><span>.</span><span>.</span></div></div>`;
             chatDiv.scrollTop = chatDiv.scrollHeight;
 
             // Add to history
@@ -1559,7 +1559,7 @@
                 // Remove typing, add response
                 const typing = document.getElementById('kevinTyping');
                 if (typing) typing.remove();
-                chatDiv.innerHTML += `<div class="flex items-start gap-2 mb-3"><span class="text-2xl flex-shrink-0">🎧</span><div class="chat-bubble chat-kevin">${escapeHtml(answer)}</div></div>`;
+                chatDiv.innerHTML += `<div class="flex items-start gap-2 mb-3"><span class="text-2xl flex-shrink-0">ðŸŽ§</span><div class="chat-bubble chat-kevin">${escapeHtml(answer)}</div></div>`;
                 chatDiv.scrollTop = chatDiv.scrollHeight;
 
                 chatHistory.push({ role: 'model', text: answer });
@@ -1570,7 +1570,7 @@
                 console.error('Chat error:', error);
                 const typing = document.getElementById('kevinTyping');
                 if (typing) typing.remove();
-                chatDiv.innerHTML += `<div class="flex items-start gap-2 mb-3"><span class="text-2xl flex-shrink-0">🎧</span><div class="chat-bubble chat-kevin">Something went a bit wrong there mate. Give it another go in a sec.</div></div>`;
+                chatDiv.innerHTML += `<div class="flex items-start gap-2 mb-3"><span class="text-2xl flex-shrink-0">ðŸŽ§</span><div class="chat-bubble chat-kevin">Something went a bit wrong there mate. Give it another go in a sec.</div></div>`;
                 chatDiv.scrollTop = chatDiv.scrollHeight;
             }
         }
@@ -1592,7 +1592,7 @@
             document.querySelectorAll('.qa-answer').forEach(a => a.classList.remove('open'));
             document.querySelectorAll('.qa-question span:last-child').forEach(s => s.textContent = '+');
             // Open clicked (if was closed)
-            if (!isOpen) { answer.classList.add('open'); icon.textContent = '−'; }
+            if (!isOpen) { answer.classList.add('open'); icon.textContent = 'âˆ’'; }
         }
 
         // ============================================
@@ -1645,7 +1645,7 @@
         }
 
         // ============================================
-        // MEET — what3words
+        // MEET â€” what3words
         // ============================================
         async function meetGetLocation() {
             const btn = document.getElementById('meetLocateBtn');
@@ -1656,14 +1656,14 @@
             error.classList.add('hidden');
             loading.classList.remove('hidden');
             btn.disabled = true;
-            btn.textContent = '📍 Finding...';
+            btn.textContent = 'ðŸ“ Finding...';
 
             if (!navigator.geolocation) {
                 loading.classList.add('hidden');
                 error.classList.remove('hidden');
                 error.textContent = 'Location is not available on this device.';
                 btn.disabled = false;
-                btn.textContent = '📍 Where Am I?';
+                btn.textContent = 'ðŸ“ Where Am I?';
                 return;
             }
 
@@ -1691,7 +1691,7 @@
                         error.textContent = 'Could not get your location. Please try again.';
                     }
                     btn.disabled = false;
-                    btn.textContent = '📍 Where Am I?';
+                    btn.textContent = 'ðŸ“ Where Am I?';
                 },
                 (err) => {
                     loading.classList.add('hidden');
@@ -1702,7 +1702,7 @@
                         error.textContent = 'Could not get your location. Please try again.';
                     }
                     btn.disabled = false;
-                    btn.textContent = '📍 Where Am I?';
+                    btn.textContent = 'ðŸ“ Where Am I?';
                 },
                 { enableHighAccuracy: true, timeout: 12000 }
             );
@@ -1724,15 +1724,15 @@
                 return;
             }
             const text = meetCurrentLabel
-                ? `${meetCurrentLabel}: ///${meetCurrentW3W} — https://what3words.com/${meetCurrentW3W}`
-                : `///${meetCurrentW3W} — https://what3words.com/${meetCurrentW3W}`;
+                ? `${meetCurrentLabel}: ///${meetCurrentW3W} â€” https://what3words.com/${meetCurrentW3W}`
+                : `///${meetCurrentW3W} â€” https://what3words.com/${meetCurrentW3W}`;
             if (navigator.clipboard) {
                 navigator.clipboard.writeText(text).catch(() => {});
             }
             const btn = event ? event.currentTarget : null;
             if (btn) {
                 const orig = btn.textContent;
-                btn.textContent = '✅ Copied!';
+                btn.textContent = 'âœ… Copied!';
                 setTimeout(() => { btn.textContent = orig; }, 2000);
             }
         }
@@ -1749,7 +1749,7 @@
             if (navigator.share) {
                 navigator.share({ title: label, text, url }).catch(() => {});
             } else if (navigator.clipboard) {
-                navigator.clipboard.writeText(`${text} — ${url}`).catch(() => {});
+                navigator.clipboard.writeText(`${text} â€” ${url}`).catch(() => {});
                 alert('Link copied to clipboard!');
             }
         }
@@ -1809,7 +1809,7 @@
             const errEl = document.getElementById('meetError');
             if (!val || !val.includes('.')) {
                 errEl.classList.remove('hidden');
-                errEl.textContent = 'Enter three words separated by dots — e.g. filled.count.soap';
+                errEl.textContent = 'Enter three words separated by dots â€” e.g. filled.count.soap';
                 return;
             }
             errEl.classList.add('hidden');
@@ -1825,3 +1825,4 @@
     </script>
 </body>
 </html>
+
