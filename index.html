@@ -1462,7 +1462,7 @@
             try {
                 const { data } = await supabaseClient.from('users').select('username, created_at').order('created_at', { ascending: false }).limit(5);
                 if (data && data.length > 0) {
-                    document.getElementById('activityList').innerHTML = data.map(u => `<p>${CONFIG.loadingIcon} <strong>${u.username}</strong> joined the village!</p>`).join('');
+                    document.getElementById('activityList').innerHTML = data.map(u => `<p>${CONFIG.loadingIcon} <strong>${escapeHtml(u.username)}</strong> joined the village!</p>`).join('');
                 } else {
                     document.getElementById('activityList').innerHTML = '<p class="text-stone-400">Be the first to join!</p>';
                 }
@@ -1477,7 +1477,7 @@
                         let badge = '🏘️';
                         if (u.oid_memberships.length >= 5) badge = '🐝';
                         else if (u.oid_memberships.length >= 2) badge = '🌉';
-                        return `<div class="flex items-center justify-between bg-stone-50 p-4 rounded-xl"><div class="flex items-center gap-3"><span class="text-2xl font-bold text-amber-600">#${i+1}</span><span>${badge}</span><span class="font-bold text-stone-800">@${u.username}</span></div><span class="text-amber-500 font-bold">${u.kudos}</span></div>`;
+                        return `<div class="flex items-center justify-between bg-stone-50 p-4 rounded-xl"><div class="flex items-center gap-3"><span class="text-2xl font-bold text-amber-600">#${i+1}</span><span>${badge}</span><span class="font-bold text-stone-800">@${escapeHtml(u.username)}</span></div><span class="text-amber-500 font-bold">${u.kudos}</span></div>`;
                     }).join('');
                 }
             } catch (error) { console.error('Error loading leaderboard:', error); }
