@@ -1,0 +1,42 @@
+# Vinyl-Oid
+
+> Free AI-powered identification tool for vinyl records. Upload a photo of the
+> label, dead wax, or sleeve and Vinyl-Oid identifies artist, pressing, matrix
+> numbers, and value. Chat with Uncle Kevin — audiophile, free-festival
+> veteran, "it's all about the music, not the gear" — for hi-fi and
+> record-care advice.
+
+Vinyl-Oid is part of the FeelFamous -Oid ecosystem, built by Chris P Taylor
+(Doc Strange).
+
+## Core tool — free, no sign-in
+
+- Photo identification of vinyl records (label, dead wax, sleeve) — artist,
+  pressing, matrix numbers, estimated value
+- Ask Uncle Kevin — chat about hi-fi gear, record care, pressing plants,
+  matrix numbers, Goldmine grading, UK/US/Jamaican labels
+- No account required, no lock icon, no gated tier for the core tool
+
+## Membership (Patreon — optional, supports hosting costs)
+
+| Tier | Price | What it is |
+|------|-------|------------|
+| Villager | £4.95/month | Hut in the village, kudos & leaderboard, activity feed |
+| Elder | Earned, not bought | Everything in Villager + mini hamlet page + named in the village roll |
+| Founder | £14.95/month | Full hamlet suite, direct line to Chris, early access, 300 kudos on joining |
+
+Join at: https://www.patreon.com/chrisptee
+One-off thanks: https://buymeacoffee.com/chrispteemagician
+
+## Site
+
+- https://vinyl-oid.co.uk/ — the whole app (Identify, Ask Kevin, Crate Dig, Care, Gear, Meet, Village)
+
+## Contact
+
+- chris@chrisptee.co.uk
+
+## Ecosystem
+
+Part of the FeelFamous -Oid family of AI identification tools:
+https://feelfamous.co.uk
